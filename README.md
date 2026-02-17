@@ -88,14 +88,3 @@ In frontend/.env (if required)
 
 - VITE_BACKEND_URL=http://localhost:3000
 
-## 👥 Contributors
-
-- Jash Patel  
-- Deven Patel
-- Jimmy Patel
-- Vandit Shah
-- Ayush Thakkar
-
-## 📜 License
-
-MIT License — feel free to use, remix, and build upon it!
