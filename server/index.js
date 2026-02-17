@@ -5,7 +5,7 @@ const session = require("express-session");
 const { auth } = require("express-openid-connect");
 const cors = require("cors");
 const SpotifyWebApi = require("spotify-web-api-node");
-const User = require("./model/UserSchema");
+const User = require("./models/UserSchema");
 const spotifySession = require("./spotifySession");
 const { default: OpenAI } = require("openai/index.mjs");
 
@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 3000;
 const OPENAI = require("openai");
 const openai = new OPENAI(process.env.OPENAI_API_KEY);
 
-require("./db/conn");
+require("./conn");
 
 let lastSearchedTrackName = null;
 

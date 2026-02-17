@@ -15,9 +15,9 @@
 // export default App;
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Landing from './pages/Landing';
-import Home from './pages/Home';
-import PrivateRoute from './components/PrivateRoute';
+import Landing from './landing';
+import Home from './home';
+import PrivateRoute from './PrivateRoute';
 
 function App() {
   return (

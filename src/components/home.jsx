@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import * as THREE from 'three';
-import './homepage.css';
+import '../styles/homepage.css';
 import logo from '../assets/logo.png';
 
 function Home() {
