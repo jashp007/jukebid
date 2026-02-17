@@ -1,4 +1,4 @@
-const User = require("../models/UserSchema");
+const User = require("./models/UserSchema");
 
 const check_in = async (userId, pointsToAdd) => {
   try {

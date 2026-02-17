@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
-import { Button } from "../components/ui/button";
-import { Card } from "../components/ui/card";
+import { Button } from "./button";
+import { Card } from "./card";
 import * as THREE from 'three';
-import ShapeBlur from '../components/ui/ShapeBlur';
-import './landing.css';
+import ShapeBlur from './ShapeBlur';
+import '../styles/landing.css';
 import logo from '../assets/logo.png';
 
 const Landing = () => {
